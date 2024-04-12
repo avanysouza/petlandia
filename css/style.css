@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.cabecalho {
+  background-color: rgb(250, 215, 39);
+  width: 100%;
+}
+
+nav {
+  font-family: "Inter", sans-serif;
+  max-width: 1120px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav > ul :hover {
+  color: black;
+  scale: 1.2;
+  transition: 0.5s;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 40px;
+}
+
+#principal_home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 150rem;
+  padding: 10rem 8rem;
+  margin: auto;
+}
+
+#principal_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#principal_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: justify;
+}
+
+#saiba_mais{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(250, 215, 39);
+    color: rgb(0, 0, 0);
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 140px;
+    height: 50px;
+}
+
+/* SECTION SOBRE*/
+
+h1 {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.sobre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 150rem;
+  padding: 2rem 8rem;
+  margin: auto;
+}
+
+.sobre_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  line-height: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.sobre_content img {
+  width: 500px;
+  height: 500px;
+}
+
+.sobre_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: justify;
+}
+
+.missao_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  line-height: 28px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 4rem;
+  text-align: justify;
+}
+
+/* SECTION SERVICOS*/
+
+.servicos {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  max-width: 150rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+.servicos p {
+  max-width: 800px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.servicos-imagens {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  max-width: 150rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+.servicos-imagens p {
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: chocolate;
+  text-align: center;
+}
+
+.servicos-imagens img {
+  width: 250px;
+  border-radius: 0.5rem;
+}
+
+.servicos-imagens img:hover {
+  scale: 1.2;
+  transition: 0.5s;
+}
+
+.servicos_descricao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 150rem;
+    padding: 2rem 8rem;
+    margin: auto;
+}
+
+.servicos_tipos ul{
+    line-height: 30px;
+}
+
+
+table {
+    max-width: 150rem;
+    padding: 2rem;
+    margin: auto;
+  }
+  
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #e0c513;
+}
+th {
+  background-color: #e0c513;
+}
+
+/*SECTION CONTACTO */
+.contato{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 150rem;
+    padding: 2rem 8rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#contato_pic{
+    width: 600px;
+    height: 400px;
+}
+
+.contato_apresentacao{
+    text-align: justify;
+    max-width: 750px;
+}
+
+.formulario_contato{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    width: 700px;
+    margin-top: 0;
+}
+
+.formulario_contato .titulo{
+    padding: 24px 32px;
+    font-size: 22px;
+    border-bottom: thin solid #ccc;
+    margin-top: 2rem;
+}
+
+.formulario_contato form{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+
+.formulario_contato input,
+.formulario_contato textarea{
+    width: calc(50% - 8px);
+    height: 48px;
+    border-radius: 8px;
+    border: thin solid #999;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formulario_contato input:first-child{
+    margin-right: 16px;
+}
+
+.formulario_contato input[name=subject]{
+    width: 100%;
+}
+
+.formulario_contato textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+}
+
+.formulario_contato button{
+    display: block;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #e8de22;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*SECTION FOOTER*/
+
+.footer {
+  background-color: rgb(250, 215, 39);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  font-size: 10px;
+}
+
+.footer img {
+  width: 400px;
+  height: 150px;
+}
