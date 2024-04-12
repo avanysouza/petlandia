@@ -200,6 +200,7 @@ h1 {
 }
 
 
+
 table {
     max-width: 150rem;
     padding: 2rem;
@@ -214,6 +215,10 @@ td {
 }
 th {
   background-color: #e0c513;
+}
+
+#video{
+    text-align: center;
 }
 
 /*SECTION CONTACTO */
