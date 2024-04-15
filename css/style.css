@@ -9,6 +9,10 @@
   font-style: normal;
 }
 
+
+/* SECTION PRINCIPAL*/
+
+
 .cabecalho {
   background-color: rgb(250, 215, 39);
   width: 100%;
@@ -199,6 +203,10 @@ h1 {
         padding: 6rem 0;
     }
 
+    .sobre_content p{
+      padding: 3rem;
+    }
+
     .missao{
         padding: 3rem;
     }
@@ -235,7 +243,7 @@ h1 {
   align-items: center;
   gap: 30px;
   max-width: 150rem;
-  padding: 2rem;
+  padding: 4rem;
   margin: auto;
 }
 
@@ -327,6 +335,7 @@ th {
   max-width: 150rem;
   padding: 2rem;
   margin: auto;
+  margin-top: 4rem;
 }
 
 
