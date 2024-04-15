@@ -195,7 +195,7 @@ h1 {
 @media screen and (max-width: 730px)  {
 
     .sobre{
-        padding: 2rem;
+      padding: 3rem;
     }
     .sobre_content{
         display: flex;
