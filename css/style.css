@@ -163,7 +163,7 @@ h1 {
   line-height: 28px;
   max-width: 1000px;
   margin: auto;
-  margin-bottom: 4rem;
+  padding: 3rem;
   text-align: justify;
 }
 
@@ -197,19 +197,16 @@ h1 {
 
 @media screen and (max-width: 730px)  {
 
-    .sobre{
-      padding: 3rem;
-    }
+  .sobre{
+    padding: 3rem;
+  }
+  
     .sobre_content{
         display: flex;
         flex-direction: column;
-        padding: 6rem 0;
-    }
+        padding: 6rem 0;    }
 
-    .sobre_text{
-      padding: 3rem;
-    }
-
+  
     .missao{
         padding: 3rem;
     }
