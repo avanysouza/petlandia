@@ -242,9 +242,6 @@ h1 {
   flex-direction: row;
   align-items: center;
   gap: 30px;
-  max-width: 150rem;
-  padding: 5rem 3rem;
-  margin: auto;
 }
 
 .servicos_item p {
