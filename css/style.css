@@ -205,7 +205,6 @@ h1 {
   .missao_content {
     display: flex;
     flex-direction: column;
-    padding: 6rem 0;
   }
 }
 
