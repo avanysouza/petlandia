@@ -7,20 +7,29 @@
     <title>Petlândia - Serviços</title>
     <link rel="icon" type="image/png" href="./img/FavIcon.png">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
 
     <header class="cabecalho">
-        <nav>
-            <img src="./img/petlandia-removebg-preview.png" alt="Logo Petlandia" width="150px">
+        <i id="menu_burguer" class="material-icons" onclick="clickMenu()">
+            menu
+        </i>
+        <nav id="menu_itens">
+            <div id="logo_petlandia">
+                <img src="./img/petlandia-removebg-preview.png" alt="Logo Petlandia" width="150px">
+            </div>
             <ul class="menu">
-                <!--Inserir hover no css-->
                 <li><a class="menu_item" href="./index.html">Home</a></li>
                 <li><a class="menu_item" href="./sobre.html">Petlândia</a></li>
                 <li><a class="menu_item" href="./servicos.html">Serviços</a></li>
                 <li><a class="menu_item" href="./contato.html">Contacto</a></li>
+              
             </ul>
+            
+            
             <div class="redes_sociais">
                 <a href="https://www.google.com" target="_blank">
                     <img width="35" src="./img/whatsapp_174879.png" alt="Whatsapp">
@@ -31,6 +40,7 @@
             </div>
         </nav>
     </header>
+
     <main>
         <h1>Serviços da Petlândia</h1>
         <section>
@@ -38,8 +48,8 @@
               
                     <p>Conheça os serviços dedicados ao bem-estar e saúde dos seus companheiros peludos disponíveis na Petlândia! Desde consultas médicas de rotina, vacinações e até cirurgias especializadas e cuidados intensivos, nossa equipe altamente qualificada está aqui para atender todas as necessidades veterinárias do seu pet.</p>
                 
-                <div class="servicos-imagens">
-                
+             
+                <div class="servicos_lista">
                     <div class="servicos_item">
                         <img src="./img/cachorro-estetica-petshop-veterinaria-prontovet.png" alt="Banho Pet">
                         <p>Banho e Tosa
@@ -67,8 +77,9 @@
                     </div>
             
             </div>
-            </div>
 
+                </div>
+                    
         </section>
 
 
@@ -134,19 +145,25 @@
         </section>
 
         <div id="video">
+            <h3>Conheça nosso canal no Youtube e nossos serviços:</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qjd4yJZnLh0?si=XFOwPv2IfaXAaI0K&amp;start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
 
+        <section class="footer">
+
+            <p>&copy; Desenvolvido por Avany Souza</p>
+    
+            <img src="./img/retrato-de-cachorro-adoravel-bulldog-branco-removebg-preview.png" alt="">
+    
+        </section>
+
     </main>
 
-    <section class="footer">
-           
-        <p>&copy; Desenvolvido por Avany Souza</p>    
+    <script src="index.js"></script>
 
-    <img src="./img/retrato-de-cachorro-adoravel-bulldog-branco-removebg-preview.png" alt="">
-   
-</section>
+
 </body>
+
 
 </html>

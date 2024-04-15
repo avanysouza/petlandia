@@ -7,20 +7,29 @@
     <title>Petlândia - Sobre</title>
     <link rel="icon" type="image/png" href="./img/FavIcon.png">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
 
     <header class="cabecalho">
-        <nav>
-            <img src="./img/petlandia-removebg-preview.png" alt="Logo Petlandia" width="150px">
+        <i id="menu_burguer" class="material-icons" onclick="clickMenu()">
+            menu
+        </i>
+        <nav id="menu_itens">
+            <div id="logo_petlandia">
+                <img src="./img/petlandia-removebg-preview.png" alt="Logo Petlandia" width="150px">
+            </div>
             <ul class="menu">
-                <!--Inserir hover no css-->
                 <li><a class="menu_item" href="./index.html">Home</a></li>
                 <li><a class="menu_item" href="./sobre.html">Petlândia</a></li>
                 <li><a class="menu_item" href="./servicos.html">Serviços</a></li>
                 <li><a class="menu_item" href="./contato.html">Contacto</a></li>
+              
             </ul>
+            
+            
             <div class="redes_sociais">
                 <a href="https://www.google.com" target="_blank">
                     <img width="35" src="./img/whatsapp_174879.png" alt="Whatsapp">
@@ -31,6 +40,7 @@
             </div>
         </nav>
     </header>
+
     <main>
         <h1>Quem é a Petlândia?</h1>
         <section class="sobre">
@@ -92,22 +102,20 @@
             </div>
         </section>
 
-        <section>
+        <section class="footer">
 
-            <!--Inserir mapa com a localização do petshop-->
-
+            <p>&copy; Desenvolvido por Avany Souza</p>
+    
+            <img src="./img/retrato-de-cachorro-adoravel-bulldog-branco-removebg-preview.png" alt="">
+    
         </section>
-
 
     </main>
 
-    <section class="footer">
+    <script src="index.js"></script>
 
-        <p>&copy; Desenvolvido por Avany Souza</p>
 
-        <img src="./img/retrato-de-cachorro-adoravel-bulldog-branco-removebg-preview.png" alt="">
-
-    </section>
 </body>
+
 
 </html>

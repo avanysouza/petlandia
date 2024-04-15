@@ -86,6 +86,54 @@ nav > ul :hover {
     height: 50px;
 }
 
+#menu_burguer{
+  display: none;
+}
+
+
+
+@media screen and (max-width: 730px)  {
+
+    #menu_itens{
+        display: none;
+    }
+
+
+    #logo_petlandia{
+        text-align: center; 
+
+    }
+
+    #menu_itens ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .redes_sociais{
+        margin-top: 1rem;
+        text-align: center; 
+    }
+
+    #menu_burguer{
+        color:rgb(12, 17, 56);
+        display: block;
+        padding: 30px 0;
+        margin-left: 30px;
+        cursor: pointer;
+    }  
+
+
+    #principal_home{
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 2rem;
+    }
+
+}
+
+
 /* SECTION SOBRE*/
 
 h1 {
@@ -140,6 +188,29 @@ h1 {
   text-align: justify;
 }
 
+@media screen and (max-width: 730px)  {
+
+    .sobre{
+        padding: 2rem;
+    }
+    .sobre_content{
+        display: flex;
+        flex-direction: column;
+        padding: 6rem 0;
+    }
+
+    .missao{
+        padding: 3rem;
+    }
+    .missao_content{
+        display: flex;
+        flex-direction: column;
+        padding: 6rem 0;
+    }
+
+
+}
+
 /* SECTION SERVICOS*/
 
 .servicos {
@@ -158,7 +229,7 @@ h1 {
   line-height: 30px;
 }
 
-.servicos-imagens {
+.servicos_lista {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -168,7 +239,7 @@ h1 {
   margin: auto;
 }
 
-.servicos-imagens p {
+.servicos_item p {
   margin-top: 2rem;
   font-size: 20px;
   font-weight: bold;
@@ -176,12 +247,12 @@ h1 {
   text-align: center;
 }
 
-.servicos-imagens img {
+.servicos_item img {
   width: 250px;
   border-radius: 0.5rem;
 }
 
-.servicos-imagens img:hover {
+.servicos_item img:hover {
   scale: 1.2;
   transition: 0.5s;
 }
@@ -197,6 +268,7 @@ h1 {
 
 .servicos_tipos ul{
     line-height: 30px;
+    text-align: center;
 }
 
 
@@ -219,29 +291,54 @@ th {
 
 #video{
     text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
+
+#video h3{
+    text-align: center;
+    padding: 1rem;
+  
+}
+
+@media screen and (max-width: 730px)  {
+
+    .servicos_lista{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .servicos_descricao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6rem 0;
+    }
+}
+
+
 
 /*SECTION CONTACTO */
 .contato{
-    display: flex; 
-    flex-direction: row;
-    justify-content: center;
-    
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  max-width: 150rem;
+  padding: 2rem;
+  margin: auto;
 }
 
 
 .formulario{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 150rem;
-    padding: 2rem 8rem;
-    margin: auto;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 #contato_pic{
-    width: 600px;
+    width: 450px;
     height: 400px;
 }
 
@@ -281,7 +378,7 @@ th {
     border: thin solid #999;
     padding-left: 16px;
     margin-bottom: 16px;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -312,6 +409,27 @@ th {
     font-weight: bold;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 730px)  {
+
+  .contato{
+    padding: 2rem ;
+  }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 0;
+        margin: auto;
+    }
+   
+    .formulario_contato{
+      padding: 4rem 12rem;
+    }
+
+
 }
 
 
