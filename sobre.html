@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="./img/FavIcon.png">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -46,7 +46,9 @@
         <section class="sobre">
             <div class="sobre_content">
                
-                <div class="sobre_imagem">
+                <div data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+            class="sobre_imagem">
                     <img src="./img/Post Instagram Pet Shop banho azul.png" alt="cachorro">
                 </div>
                     
@@ -118,7 +120,11 @@
     </main>
 
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 

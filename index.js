@@ -10,3 +10,6 @@ function clickMenu(){
    }
    
 }
+
+
+AOS.init();

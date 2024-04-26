@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="./img/FavIcon.png">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -42,7 +43,8 @@
     </header>
 
     <main>
-        <section id="principal_home">
+        <section  data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" id="principal_home">
             <div id="principal_content">
                 <div>
                     <img src="./img/FavIcon.png" alt="">
@@ -89,7 +91,12 @@
 
     <script src="index.js"></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 
